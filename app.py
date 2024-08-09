@@ -87,7 +87,7 @@ class StreamingApp:
         def video_feed():
             return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
         
-        app.run(host='0.0.0.0', port=5000, debug=False)
+        app.run(host='192.168.0.12', port=5000, debug=False)
     
     def stop_server(self):
         if self.server_on:
