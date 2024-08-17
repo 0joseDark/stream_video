@@ -1,4 +1,4 @@
-# stream_video,audo-server
+# stream_video
  Run the app.py script to launch the graphical interface
  
  # pip install opencv-python flask
